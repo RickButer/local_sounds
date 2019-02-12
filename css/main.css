@@ -1,4 +1,58 @@
-body {
-  background-color: #62b46a;
+html {
+  margin: 30px;
+  font-family: 'Open Sans', sans-serif;
 }
-/*# sourceMappingURL=main.css.map */
+
+.debug {
+  border: 1px solid black;
+}
+
+.my_container {
+
+}
+
+.my_row {
+  text-align: center;
+  justify-content: center;
+}
+
+.my_col {
+  height: 8vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.my_col_search {
+  font-size: 30px;
+  height: 8vh;
+  text-align: center;
+  justify-content: center;
+}
+
+input[type=search] {
+  width: 100%;
+  outline: none;
+  border:none;
+  border-bottom: 1px solid black;
+}
+
+.my_col p {
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+
+}
+
+.whitespace {
+  height: 5vh;
+  width: 100%;
+}
+
+.gif_screen {
+  height: 85vh;
+  border: 1px solid black;
+}
+
+.link_10 {
+  height: 10%;
+}
