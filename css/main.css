@@ -74,15 +74,15 @@ input[type=search]{
 
 
 #button {
-  width: 75%;
-  height: 80%;
+  width: 60%;
+  height: 100%;
   transition: 0.2s;
   border: none;
   background-color: red;
   color: white;
   font-family: 'Sigmar One', cursive;
   font-size: 30px;
-  clip-path: polygon(0 33%, 62% 33%, 56% 0, 100% 50%, 60% 100%, 63% 70%, 0 69%);
+  -webkit-clip-path: polygon(0 33%, 62% 33%, 60% 13%, 100% 50%, 61% 90%, 63% 70%, 0 69%);
 }
 #button:active {
   transform: scale(0.8);

@@ -142,6 +142,9 @@ var word_list  = [
     "fastfood",
     "healthy", 
   ];
+
+
+
   function getRandomWord() { 
     var random_word = word_list[Math.floor(Math.random() * word_list.length)];
     
