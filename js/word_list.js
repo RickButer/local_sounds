@@ -1,5 +1,3 @@
-
-
 var word_list  = [
     "monkey",
     "donkey",
@@ -142,10 +140,8 @@ var word_list  = [
     "mcdonalds",
     "burgerking",
     "fastfood",
-    "healthy",
-    
+    "healthy", 
   ];
-  
   function getRandomWord() { 
     var random_word = word_list[Math.floor(Math.random() * word_list.length)];
     
@@ -173,9 +169,6 @@ var word_list  = [
     var input = document.getElementById('searchbar').value; 
     loadDoc(input); // stopt de value van de searchbar in de variable input
   });
-
-  //document.getElementById("test").innerHTML = input;
-
 
   document.getElementById('searchbar').addEventListener('keypress', function(event) {
     if (event.keyCode == 13) {

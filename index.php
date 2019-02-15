@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
   <title>Giffy</title>
 </head>
-
 <body>
-
   <div class="container">
     <div class="row first_row">
       <div class="col giffy_title"><span id="g">g</span><span id="i">i </span><span id="f">f </span><span id="ff">f
@@ -22,16 +19,10 @@
       </div>
     </div>
     <div class="row second_row">
-      <div class="col-8 search_box">
-      
-          <input name="word" id="searchbar" type="search" value="" placeholder="find your giffy!" autofocus> 
+      <div class="col-6 search_box">
+          <input name="word" id="searchbar" type="search" value="" placeholder="find your giffy ..." autofocus> 
       </div>
-    </div>
-    <div class="row third_row">
-      <div class="col-12 button_box"><button type="button" class="" id="button">go!</button></div>
-    </div>
-    <div class="row">
-      <div class="col-12 img_box "><img id="image" /></div>
+      <div class="col-6 button_box"><div id="bg"></div><button type="button" class="" id="button">go!</button></div>
     </div>
     <div class="row">
       <div class="col-2 black"></div>
@@ -42,9 +33,11 @@
       </div>
       <div class="col-2 black"></div>
     </div>
+    <div class="row">
+      <div class="col-12 img_box "><img id="image" /></div>
+    </div>
   </div>
   <script src="js/main.js"></script>
   <script src="js/word_list.js"></script>
 </body>
-
 </html>
